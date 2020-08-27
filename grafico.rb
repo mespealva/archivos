@@ -4,8 +4,8 @@ def chart(array)
     end
     puts ">#{('-'*(array.max))*2}"
     for i in (1..(array.max))
-      print " #{i}"
+      print " #{i} "
     end
   end
   
-  chart([5,3,2,5,10])
+  #chart([5,3,2,5,10])
